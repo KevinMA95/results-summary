@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <!--F O N T S-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body>
+    <main>
+      <article>
+        <div class="content">
+          <div class="result-container">
+            <p class="title">Your Result</p>
+            <div class="score">
+              <h1>76</h1>
+              <p>of 100</p>
+            </div>
+            <h2>Great</h2>
+            <p class="result-text">
+              You scored higher than 65% of the people who have taken these
+              tests.
+            </p>
+          </div>
+          <div class="summary-container">
+            <h3>Summary</h3>
+            <div class="individual-scores">
+              <div class="scores red">
+                <div class="icon-container">
+                  <img src="assets/images/icon-reaction.svg" alt="reaction" class="reaction-img"/>
+                  <span class="red-txt"></span>
+                </div>
+                <div class="scores-numbers"><span class="red-num"></span> <span class="total">/ 100</span></div>
+              </div>
+              <div class="scores yellow">
+                <div class="icon-container">
+                  <img src="assets/images/icon-memory.svg" alt="memory" class="memory-img"/>
+                  <span class="yellow-txt"></span>
+                </div>
+                <div class="scores-numbers"><span class="yellow-num"></span> <span class="total">/ 100</span></div>
+              </div>
+              <div class="scores green">
+                <div class="icon-container">
+                  <img src="assets/images/icon-verbal.svg" alt="verbal" class="verbal-img"/>
+                  <span class="green-txt"></span>
+                </div>
+                <div class="scores-numbers"><span class="green-num"></span> <span class="total">/ 100</span></div>
+              </div>
+              <div class="scores blue">
+                <div class="icon-container">
+                  <img src="assets/images/icon-visual.svg" alt="visual" class="visual-img"/>
+                  <span class="blue-txt"></span>
+                </div>
+                <div class="scores-numbers"><span class="blue-num"></span> <span class="total">/ 100</span></div>
+              </div>
+            </div>
+            <div class="btn-container">
+              <button class="btn" id="btn">Continue</button>
+            </div>
+          </div>
+        </div>
+      </article>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
